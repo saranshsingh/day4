@@ -10,35 +10,15 @@ position = input("Where do you want to put the treasure? ")
 #Write your code below this row 👇
 # First I split 2 numbers in List
 # Stored in different variables acc. to values
-column = [position[0]]
-column[0] = "x"
-row = [position[1]]
-row[0] = "x"
-# How to print only column ?
-col1 = [row1[0] , row2[0] , row3[0] ] 
-col2 = [row1[1] , row2[1] , row3[1] ] 
-col3 = [row1[2] , row2[2] , row3[2] ] 
-map_col = [col1 , col2 , col3]
-
-
-# Now we have only columns 
-
-# need to work on it I am 90 percent closer
-a = map_col.append(column)
-b = map.append(row)
-
+column = int(position[0])
+row = int(position[1])
+selected_row = map[row - 1]
+selected_row[column - 1] = "X"
 
 
 
   
   
-
-
-# Now I will append them in output
-
-
-
-
 
 
 
